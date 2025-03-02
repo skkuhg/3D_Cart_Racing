@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Cart Racing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="info">
+        <div id="speed">Speed: 0 km/h</div>
+        <div id="lap-time">Lap: 0:00.000</div>
+        <div id="best-time">Best: 0:00.000</div>
+        <div id="position">Position: 1/4</div>
+    </div>
+    <div id="start-screen">
+        <h1>3D Cart Racing</h1>
+        <button id="start-button">Start Race</button>
+        <p>Controls: Arrow keys to drive, Space to brake</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="js/game.js" type="module"></script>
+</body>
+</html>
